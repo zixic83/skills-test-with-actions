@@ -36,8 +36,7 @@ jobs:
           path: remark-lint-report.json
           
       - uses: actions/download-artifact@v4
-        with:
-          name: remark-link-report.json
+
 
 
       
